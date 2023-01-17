@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <link rel="icon" type="image/x-icon" href="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_favicon_icon_130608.png">
+<style>
+ .contenedor {
+position: absolute;
+left: 60%;
+top: 40%;
+
+ }
+
+ .moneda {
+background: rgb(17, 190, 95);
+width: 100px;
+height: 100px;
+position: relative;
+border-radius: 20%;
+animation: salto 0.8s infinite;
+ }
+
+ .moneda:hover {
+    content: ’’;
+    display: inline-block;
+    background: rgb(4, 58, 28);
+    background-image: url("https://th.bing.com/th/id/R.b0655d785916dd8636b02b2d4c467c7a?rik=A8wTaUGAIy4SlA&pid=ImgRaw&r=0");
+    background-size: 100px 100px;
+ background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+position: absolute;
+border-radius: 20%;
+transform: perspective(300px) rotateY(45deg);
+   
+    top: 2px;
+    animation: radio 0.8s infinite;
+ }
+ .moneda {
+    content: ’’;
+    display: inline-block;
+    background-image: url("https://www.jasoft.org/Blog/image.axd?picture=/2019/vscode-logo.png");
+    width: 100px;
+ height: 100px;
+ position: absolute;
+ background-size: 90px 90px;
+ background-repeat: no-repeat;
+ top: 2px;
+ 
+ 
+ box-shadow: -10px 0px green ;
+}
+
+@keyframes salto {
+ 0%, 100% {top: 0;}
+ 50% {top: -90px;}
+ 
+
+    
+}
+@keyframes radio {
+        0%, 100% {left: 0;}
+        50% {left: 70px;}
+        
+           
+       }
+
+</style>
+</head>
+<body>
+<div class="contenedor">
+    <div class="moneda">
+    </div>   
+</div>
+
+
+
+
+
+
+</body>
+</html>
